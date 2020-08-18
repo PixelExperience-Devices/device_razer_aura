@@ -1,10 +1,10 @@
-type thermal_engine_prop, property_type;
+vendor_internal_prop(thermal_engine_prop)
 
-type vendor_fp_prop, property_type;
+vendor_public_prop(vendor_fp_prop)
 
-type vendor_ro_camera_prop, property_type;
+vendor_public_prop(vendor_ro_camera_prop)
 
-type vendor_qmipriod_prop, property_type;
+vendor_public_prop(vendor_qmipriod_prop)
 
 # Dolby
-type vendor_dolby_loglevel_prop, property_type;
+vendor_public_prop(vendor_dolby_loglevel_prop)
