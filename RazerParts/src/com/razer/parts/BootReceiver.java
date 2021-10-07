@@ -47,8 +47,6 @@ public class BootReceiver extends BroadcastReceiver {
                 "200");
         String resolution = (String) spfu.get(context, SCREEN_RESOLUTION,
                 "1440");
-        String refreshRate = (String) spfu.get(context, SCREEN_REFRESH_RATE,
-                "120");
         boolean chromaEnabled = (boolean) spfu.get(context, CHROMA_SWITCH,
                 false);
 
@@ -60,15 +58,18 @@ public class BootReceiver extends BroadcastReceiver {
             ShellUtils.execCommand("wm size 1080x1920", false);
         }
 
-        int parseInt = Integer.parseInt(refreshRate);
-        IWindowManager windowManagerService = WindowManagerGlobal.getWindowManagerService();
-        if (windowManagerService != null) {
-            try {
-                windowManagerService.setDisplayRefreshRate(0, parseInt);
-            } catch(RemoteException e) {
-                e.printStackTrace();
-            }
-        }
+        /* Buggy [WIP]*/
+        // String refreshRate = (String) spfu.get(context, SCREEN_REFRESH_RATE,
+        //         "120");
+        // int parseInt = Integer.parseInt(refreshRate);
+        // IWindowManager windowManagerService = WindowManagerGlobal.getWindowManagerService();
+        // if (windowManagerService != null) {
+        //     try {
+        //         windowManagerService.setDisplayRefreshRate(0, parseInt);
+        //     } catch(RemoteException e) {
+        //         e.printStackTrace();
+        //     }
+        // }
 
         if(chromaEnabled) {
             ChromaManager tempManager = new ChromaManager();
