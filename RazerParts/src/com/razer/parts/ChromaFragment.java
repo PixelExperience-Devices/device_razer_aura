@@ -63,6 +63,7 @@ public class ChromaFragment extends PreferenceFragment implements Preference.OnP
             boolean enabled = (boolean) o;
             if(enabled) {
                 mManager.systemReady();
+                mManager.loadMcuWithParams(preference.getContext());
             } else {
                 mManager.suspendThs();
             }
