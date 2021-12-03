@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/razer/aura/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_aura
+PRODUCT_NAME := aosp_aura
 PRODUCT_DEVICE := aura
 PRODUCT_BRAND := razer
 PRODUCT_MODEL := Phone 2
@@ -23,3 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="cheryl2"
 
 PRODUCT_GMS_CLIENTID_BASE := android-razer
+
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+TARGET_BOOT_ANIMATION_RES := 1440

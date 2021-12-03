@@ -28,8 +28,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay 
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -169,8 +168,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    Snap \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    Camera2 \
+    vendor.qti.hardware.camera.device@1.0.vendor \
 
 # Device fstab
 PRODUCT_PACKAGES += \
