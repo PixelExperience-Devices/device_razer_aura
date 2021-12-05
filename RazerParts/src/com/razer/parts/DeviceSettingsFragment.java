@@ -34,7 +34,6 @@ import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import static android.provider.Settings.System.MIN_REFRESH_RATE;
 import static android.provider.Settings.System.PEAK_REFRESH_RATE;
-import static android.provider.Settings.System.PREFERRED_REFRESH_RATE;
 
 import static com.razer.parts.Constants.*;
 import com.razer.parts.ShellUtils;
@@ -89,8 +88,6 @@ public class DeviceSettingsFragment extends PreferenceFragment implements Prefer
                 // }
                 Settings.System.putInt(getContext().getContentResolver(), MIN_REFRESH_RATE, parseInt);
 	            Settings.System.putInt(getContext().getContentResolver(), PEAK_REFRESH_RATE, parseInt);
-                Settings.System.putFloat(getContext().getContentResolver(), PREFERRED_REFRESH_RATE,
-                Float.valueOf((String) o));
                 break;
         }
         SharedPreferenceUtil spfu = SharedPreferenceUtil.getInstance();
