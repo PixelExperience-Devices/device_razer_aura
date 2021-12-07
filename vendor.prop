@@ -100,6 +100,10 @@ persist.vendor.data.iwlan.enable=true
 ro.vendor.extension_library=libqti-perfd-client.so
 vendor.iop.enable_uxe=1
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM845
+
 # RIL
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
