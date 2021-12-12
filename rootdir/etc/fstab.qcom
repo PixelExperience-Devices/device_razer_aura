@@ -13,5 +13,4 @@
 /dev/block/bootdevice/by-name/misc         /misc                   emmc    defaults                                                                                           defaults
 
 /devices/platform/soc/8804000.sdhci/mmc_host*           /storage/sdcard1          vfat    noatime,nosuid,nodev                                         wait,voldmanaged=sdcard1:auto,encryptable=userdata
-/devices/platform/soc/1da4000.ufshc_card/host*          /storage/sdcard1          vfat    noatime,nosuid,nodev                                         wait,voldmanaged=sdcard1:auto,encryptable=userdata
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.0.auto*    /storage/usbotg     vfat    nosuid,nodev            wait,voldmanaged=usbotg:auto
