@@ -1,1 +1,7 @@
 dontaudit init { bt_firmware_file firmware_file }:filesystem getattr;
+allow init thermal_engine_prop:file { read relabelto write };
+allow init vendor_fp_prop:file { read relabelto write };
+allow init vendor_ro_camera_prop:file { read relabelto write };
+allow init vendor_qmipriod_prop:file { read relabelto write };
+allow init hwservicemanager:binder { call transfer };
+allow init vendor_file:file { execute };

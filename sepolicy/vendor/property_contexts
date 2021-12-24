@@ -1,5 +1,6 @@
 # Bluetooth
 persist.vendor.bt.a2dp_offload_cap                                                   u:object_r:vendor_bluetooth_prop:s0
+ro.bluetooth.library_name                                                            u:object_r:vendor_bluetooth_prop:s0
 
 # Camera
 persist.camera.pdaf_dump                                                             u:object_r:camera_prop:s0
@@ -16,3 +17,6 @@ fpc_kpi                                                                         
 
 # Thermal
 sys.vendor.thermal.                                                                  u:object_r:thermal_engine_prop:s0
+
+# netmgr
+persist.vendor.data.qmipriod_load                                                    u:object_r:vendor_qmipriod_prop:s0
