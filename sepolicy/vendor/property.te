@@ -3,3 +3,5 @@ type thermal_engine_prop, property_type;
 type vendor_fp_prop, property_type;
 
 type vendor_ro_camera_prop, property_type;
+
+type vendor_qmipriod_prop, property_type;
