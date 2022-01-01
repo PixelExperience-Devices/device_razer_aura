@@ -455,6 +455,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Tracing
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service.pixel
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
@@ -482,6 +486,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libgui_vendor
+
+# VR
+PRODUCT_PACKAGES += \
+    android.hardware.vr@1.0-impl \
+    android.hardware.vr@1.0-service \
+    vr.sdm845
 
 # WiFi
 PRODUCT_PACKAGES += \
