@@ -934,4 +934,8 @@
     <!-- Whether or not wcg (wide color gamut) should be enabled on this device,
           we only enabled it while the device has ability of mixed color spaces composition -->
     <bool name="config_enableWcgMode">true</bool>
+
+    <!-- Height of the status bar in portrait. The height should be
+         Max((status bar content height + waterfall top size), top cutout size) -->
+    <dimen name="status_bar_height_portrait">30dp</dimen>
 </resources>
