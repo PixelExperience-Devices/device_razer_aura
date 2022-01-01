@@ -930,4 +930,8 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">100</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Whether or not wcg (wide color gamut) should be enabled on this device,
+          we only enabled it while the device has ability of mixed color spaces composition -->
+    <bool name="config_enableWcgMode">true</bool>
 </resources>
