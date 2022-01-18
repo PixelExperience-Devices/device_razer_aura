@@ -770,10 +770,6 @@ vendor/lib/libqti-util.so
 vendor/etc/qdcm_calib_data_NT36830_dual_dsi_cmd_mode_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_NT36830_dual_dsi_extclk_cmd_mode_panel_with_DSC.xml
 
-# QMI - from polaris V11.0.5.0.QDGMIXM
-vendor/lib/libqmi_cci.so|90e0f50ddb2a800118e0216271465bbb721198cd
-vendor/lib64/libqmi_cci.so|1df3024dd206ad2685e42573945a5965378258f3
-
 # QMI - from pyxis - RKQ1.200826.002/21.3.31
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
