@@ -1,0 +1,1 @@
+allow zygote vendor_bluetooth_prop:file read;
