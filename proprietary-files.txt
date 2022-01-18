@@ -270,6 +270,10 @@ vendor/lib64/libsdm-disp-vndapis.so|68f9171c08a2ba9654aaa3a1d9b0c050ae07bd97
 vendor/lib64/libsdmextension.so|ddcc83174b5b6dbed08888002cd08674f907e777
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
+# Display (SDM) - Tempo
+vendor/lib64/libsdmcore.so
+vendor/lib/libsdmcore.so
+
 # Display postprocessing - from OnePlus6 - RKQ1.201217.002/2106301530
 vendor/bin/hw/vendor.display.color@1.0-service|f953144ced6869e640ca67930cea6d63e38f0a0d
 vendor/bin/mm-pp-dpps|0445e221a376694bd2a24f65ae7dceb32173228f
