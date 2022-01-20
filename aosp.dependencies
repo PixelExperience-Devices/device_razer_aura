@@ -1,0 +1,13 @@
+[
+  { 
+    "repository": "vendor_razer_aura",
+    "target_path": "vendor/razer/aura",
+    "branch": "twelve",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "kernel_razer_sdm845",
+    "target_path": "kernel/razer/sdm845",
+    "branch": "twelve"
+  }
+]
