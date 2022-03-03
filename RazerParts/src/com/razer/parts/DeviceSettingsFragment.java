@@ -92,7 +92,9 @@ public class DeviceSettingsFragment extends PreferenceFragment implements Prefer
                 preference.getContext().startActivity(new Intent(getActivity(), ChromaActivity.class));
                 break;
             case DOLBY_ATMOS:
-
+                preference.getContext().startActivity(new Intent()
+                    .setClassName("com.dolby.daxappui",
+                     "com.dolby.daxappui.MainActivity"));
                 break;
             case ACTIVE_WAKE:
                 preference.getContext().startActivity(new Intent()

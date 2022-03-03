@@ -298,6 +298,29 @@ vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958
 vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
 vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
+# Dolby Atmos™ - from aura-user-9-P-MR3-RC002-RZR-200226-3141-release-keys with @reiryuki modded files
+system/etc/sysconfig/config-com.dolby.daxappui.xml|b07905e8877de1e694c63b64f003e9a2e3ecdcff
+system/etc/sysconfig/config-com.dolby.daxservice.xml|46ee8cb41ceaaf484132c682a4c8da048987d93f
+-system/priv-app/DaxUI/DaxUI.apk|47c6c47b124ec09958fa849149b5c29478032439
+-system/priv-app/daxService/daxService.apk|9f77af747f84f40ac44708ccdee2a73447248700
+system/etc/permissions/privapp-com.dolby.daxservice.xml|cf15bea7d20cb58fb5267aed3077681e527cfb7b
+vendor/lib/soundfx/libswdap.so|669c2b3d1e2cd8d251702951ddab458bb2e64731
+vendor/lib/soundfx/libswvqe.so|a8603e75336821004b7e6e7e15481a6a05f3acaf
+vendor/lib/libdapparamstorage.so|bdd194ee7ef1c806a63990836a6992dcc29ba256
+vendor/lib/libstagefrightdolby.so|82c017972555a88b874d98057b0879c1b540a660
+vendor/lib/libstagefright_soft_ac4dec.so|5263979c1702544a8be431df78bcd2e7e11c4ce7
+vendor/lib/libstagefright_soft_ddpdec.so|1b3897c75de75fd33608a0e86f98947a9ee5956d
+vendor/lib/vendor.dolby.hardware.dms@1.0.so|23f92533409a136762f2dfb763b2b1c71410772c
+vendor/lib64/soundfx/libswdap.so|b630cd1cae13f835a4bc28a57d70e320762417d8
+vendor/lib64/soundfx/libswvqe.so|29ad888f40592a12162287b37a893768f1071df0
+vendor/lib64/libdapparamstorage.so|198a68fefe538502bfc70375a4b0ab2e25c4c420
+vendor/lib64/libdlbdsservice.so|11f7f4617296a805f4b48498aa2a0f362412c96a
+vendor/lib64/libstagefrightdolby.so|20b553dd227220eb813b5aa5e5708dc27bc2ff79
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so|89d8c02ebe507fd2eacdbaac45b88bbc96d47d91
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|35de95afc6b23b173091a5001e5a61197adfdbb9
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service|ca32f71bd1a0ae03203b2ff97f1f09d2fc4fd096
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc|5855c7ccae21340573f447f0c24a097b8e5833e3
+
 # DPM - from LA.QSSI.11.0.r1-12100-qssi.0
 system_ext/bin/dpmd|e04b54867d3c1c5e6622e41bc052529a81c82e3c
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
