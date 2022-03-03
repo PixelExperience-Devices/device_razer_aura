@@ -20,3 +20,6 @@ sys.vendor.thermal.                                                             
 
 # netmgr
 persist.vendor.data.qmipriod_load                                                    u:object_r:vendor_qmipriod_prop:s0
+
+# Dolby
+persist.vendor.dolby.loglevel                                                        u:object_r:vendor_dolby_loglevel_prop:s0

@@ -243,6 +243,13 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0.vendor \
     vendor.qti.hardware.display.allocator@1.0-service
 
+# Dolby 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    $(LOCAL_PATH)/configs/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+    $(LOCAL_PATH)/configs/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
+    $(LOCAL_PATH)/configs/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0 \
@@ -425,6 +432,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor \
     librmnetctl
+
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # RenderScript
 PRODUCT_PACKAGES += \
