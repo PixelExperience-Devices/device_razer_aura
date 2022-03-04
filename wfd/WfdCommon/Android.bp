@@ -1,0 +1,6 @@
+dex_import {
+        name: "WfdCommon",
+        owner: "razer",
+        jars: ["WfdCommon.jar"],
+}
+
