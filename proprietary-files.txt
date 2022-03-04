@@ -1166,7 +1166,6 @@ vendor/bin/cnss-daemon
 vendor/bin/wireless_init
 
 # WiFi Display - from PNX - RKQ1.200906.002
--system/framework/WfdCommon.jar|aa7470dd5ccb2e2c695fd54c3aff01d21e2d7472
 system_ext/bin/wfdservice|91f6e2d58de9354a694d3b3da6e6d224dd7e47c1
 system_ext/etc/init/wfdservice.rc|aab7aecb01c359fd521c99957c4d5bfd16a8dfae
 system_ext/etc/seccomp_policy/wfdservice.policy|ff82c22afdfc6a1f6f19db0d446f97e184d40043
