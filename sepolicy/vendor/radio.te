@@ -6,5 +6,3 @@ binder_call(radio, gpuservice)
 binder_call(radio, hal_imsrtp)
 
 get_prop(radio, qcom_ims_prop)
-
-allow radio zygote:unix_stream_socket getopt;
