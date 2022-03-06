@@ -1862,6 +1862,8 @@
 
     <path name="audio-record">
         <ctl name="MultiMedia1 Mixer SLIM_0_TX" value="1" />
+        <ctl name="DEC7 Volume" value="95"/>
+        <ctl name="DEC8 Volume" value="95"/>
     </path>
 
     <path name="audio-record usb-headset-mic">
@@ -1883,6 +1885,8 @@
 
     <path name="audio-record-compress">
         <ctl name="MultiMedia8 Mixer SLIM_0_TX" value="1" />
+        <ctl name="DEC7 Volume" value="95"/>
+        <ctl name="DEC8 Volume" value="95"/>
     </path>
 
     <path name="audio-record-compress bt-sco">
@@ -1900,6 +1904,8 @@
 
     <path name="low-latency-record">
       <ctl name="MultiMedia8 Mixer SLIM_0_TX" value="1" />
+      <ctl name="DEC7 Volume" value="95"/>
+      <ctl name="DEC8 Volume" value="95"/>
     </path>
 
     <path name="low-latency-record bt-sco">
@@ -2332,6 +2338,8 @@
     <!-- VoIP Tx settings -->
     <path name="audio-record-voip">
         <ctl name="MultiMedia10 Mixer SLIM_0_TX" value="1" />
+        <ctl name="DEC7 Volume" value="95"/>
+        <ctl name="DEC8 Volume" value="95"/>
     </path>
 
     <path name="audio-record-voip usb-headset-mic">
@@ -2630,6 +2638,8 @@
     </path>
 
     <path name="handset-mic">
+        <ctl name="DEC7 Volume" value="95"/>
+        <ctl name="DEC8 Volume" value="95"/>
         <path name="dmic2" />
     </path>
 
