@@ -1,6 +1,8 @@
 # Proprietary files - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys, unless pinned
 
-# ACDB
+# ACDB - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys Modified from MTP calibration
+vendor/etc/acdbdata/RC2/Speaker_cal.acdb|0b7581850337396a2071ce2a3963faebc3e73f97
+
 vendor/etc/acdbdata/RC2/Bluetooth_cal.acdb
 vendor/etc/acdbdata/RC2/Codec_cal.acdb
 vendor/etc/acdbdata/RC2/General_cal.acdb
@@ -8,7 +10,6 @@ vendor/etc/acdbdata/RC2/Global_cal.acdb
 vendor/etc/acdbdata/RC2/Handset_cal.acdb
 vendor/etc/acdbdata/RC2/Hdmi_cal.acdb
 vendor/etc/acdbdata/RC2/Headset_cal.acdb
-vendor/etc/acdbdata/RC2/Speaker_cal.acdb
 vendor/etc/acdbdata/RC2/workspaceFile.qwsp
 
 # ADSP
