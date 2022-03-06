@@ -7,3 +7,6 @@ type proc_wifi_mac, proc_type, fs_type;
 type sysfs_fingerprint, sysfs_type, fs_type;
 
 type sysfs_wireless_supply, sysfs_type, fs_type;
+
+# Data files
+type per_boot_file, file_type, data_file_type, core_data_file_type;
