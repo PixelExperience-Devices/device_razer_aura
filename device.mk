@@ -286,6 +286,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0 \
     android.hardware.gnss@2.0.vendor
 
+# GoogleCamera
+include vendor/razer/aura-extra/gcam.mk
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
