@@ -552,7 +552,7 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-include $(LOCAL_PATH)/wfd/wfd.mk
+include vendor/razer/aura-extra/wfd.mk
 
 # HEH filename encryption is being dropped
 PRODUCT_PROPERTY_OVERRIDES += \
