@@ -78,11 +78,11 @@
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
             <Limit name="concurrent-instances" max="16" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-1920x1088" value="240" />
             <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
             <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="c2.qti.avc.decoder.secure" type="video/avc" >
@@ -92,15 +92,13 @@
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="1" max="1958400" />
             <Limit name="bitrate" range="1-40000000" />
-            <Limit name="frame-rate" range="1-240" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="frame-rate" range="1-60" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
-            <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
             <Feature name="adaptive-playback" />
             <Feature name="secure-playback" required="true" />
-            <Limit name="concurrent-instances" max="6" />
+            <Limit name="concurrent-instances" max="3" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.decoder" type="video/hevc" >
             <Alias name="OMX.qcom.video.decoder.hevc" />
@@ -110,11 +108,11 @@
             <Limit name="blocks-per-second" min="24" max="2073600" />
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-1920x1088" value="240" />
             <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
             <Feature name="adaptive-playback" />
             <Limit name="concurrent-instances" max="16" />
         </MediaCodec>
@@ -125,15 +123,13 @@
             <Limit name="block-size" value="16x16" />
             <Limit name="blocks-per-second" min="24" max="2073600" />
             <Limit name="bitrate" range="1-40000000" />
-            <Limit name="frame-rate" range="1-480" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="frame-rate" range="1-60" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
-            <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
             <Feature name="adaptive-playback" />
             <Feature name="secure-playback" required="true" />
-            <Limit name="concurrent-instances" max="6" />
+            <Limit name="concurrent-instances" max="3" />
         </MediaCodec>
         <MediaCodec name="c2.qti.vp8.decoder" type="video/x-vnd.on2.vp8" >
             <Alias name="OMX.qcom.video.decoder.vp8" />
@@ -187,7 +183,7 @@
 
     <Encoders>
         <!-- C2 encoders -->
-        <MediaCodec name="c2.qti.avc.encoder" type="video/avc">
+        <!-- <MediaCodec name="c2.qti.avc.encoder" type="video/avc">
             <Alias name="OMX.qcom.video.encoder.avc" />
             <Limit name="size" min="96x96" max="4096x2304" />
             <Limit name="alignment" value="2x2" />
@@ -196,11 +192,12 @@
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
             <Limit name="concurrent-instances" max="16" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-1920x1088" value="240" />
             <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
+            <Limit name="performance-point-720x480" value="480" />
             <Feature name="bitrate-modes" value="VBR,CBR" />
         </MediaCodec>
         <MediaCodec name="c2.qti.hevc.encoder" type="video/hevc">
@@ -213,13 +210,14 @@
             <Limit name="frame-rate" range="1-480" />
             <Limit name="concurrent-instances" max="16" />
             <Limit name="quality" range="0-100" default="80" />
-            <Limit name="performance-point-4096x2304" value="56" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-4096x2160" value="60" />
             <Limit name="performance-point-3840x2160" value="60" />
-            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-1920x1088" value="240" />
             <Limit name="performance-point-1280x720" value="480" />
-            <!-- <Limit name="performance-point-720x480" value="480" /> -->
-            <Feature name="bitrate-modes" value="VBR,CBR,CQ" />
-        </MediaCodec>
+            <Limit name="performance-point-720x480" value="480" /> 
+            <Feature name="bitrate-modes" value="VBR,CBR,CQ" /> 
+        </MediaCodec> -->
         <MediaCodec name="c2.qti.vp8.encoder" type="video/x-vnd.on2.vp8">
             <Alias name="OMX.qcom.video.encoder.vp8" />
             <Limit name="size" min="96x96" max="4096x2304" />
@@ -229,9 +227,10 @@
             <Limit name="bitrate" range="1-120000000" />
             <Limit name="frame-rate" range="1-480" />
             <Limit name="concurrent-instances" max="16" />
-            <Limit name="performance-point-4096x2304" value="28" />
+            <Limit name="performance-point-4096x2304" value="24" />
+            <Limit name="performance-point-4096x2160" value="30" />
             <Limit name="performance-point-3840x2160" value="30" />
-            <Limit name="performance-point-1920x1080" value="120" />
+            <Limit name="performance-point-1920x1088" value="120" />
             <Limit name="performance-point-1280x720" value="240" />
             <!-- <Limit name="performance-point-720x480" value="240" /> -->
             <Feature name="bitrate-modes" value="VBR,CBR" />

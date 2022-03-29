@@ -90,13 +90,10 @@ persist.dbg.wfc_avail_ovr=1
 # Media
 audio.offload.video=true
 debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-debug.media.codec2=2
+debug.stagefright.omx_default_rank=512
 debug.media.transcoding.codec_max_operating_rate_720P=480
 debug.media.transcoding.codec_max_operating_rate_1080P=240
 debug.media.transcoding.codec_max_operating_rate_4k=120
-debug.stagefright.c2inputsurface=-1
-vendor.media.omx=0
 
 # Netflix BSP
 ro.netflix.bsp_rev=Q845-05000-1
