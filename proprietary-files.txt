@@ -243,12 +243,10 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd02
 vendor/lib64/vendor.qti.latency@2.0.so|1589280034898a0ab3052234ef90b7c674d5be5b
 
 # QTI Codec2 - from crosshatch - SP1A.210812.015
+vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
-vendor/bin/hw/vendor.qti.media.c2@1.0-service|6ae5c619633c8dbfa77e339c3d8b968a3b05b466
 vendor/lib/libqcodec2.so|0a268521471874a34ce119f3ffda2732d9990b5f
 vendor/lib64/libqcodec2.so|23360b218470b9b85bbcbc89dc01239cb8c5cddc
-vendor/lib/libavservices_minijail_vendor.so|27b4fc2f3ece1987b647e4236e5a7445267bb1ce
-vendor/lib64/libavservices_minijail_vendor.so|d45f85d4b80dfd5b1a40ecd32ade96e1461c7f17
 
 # Configstore - from OnePlus6 - RKQ1.201217.002/2106301530
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8a64779e1a5df5153f10871cf23c65c3f7f94ae7
