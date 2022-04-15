@@ -18,6 +18,7 @@
 package org.lineageos.settings.doze;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.preference.PreferenceActivity;
 
 public class DozeSettingsActivity extends PreferenceActivity {
@@ -28,7 +29,18 @@ public class DozeSettingsActivity extends PreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+
         getFragmentManager().beginTransaction().replace(android.R.id.content,
                 new DozeSettingsFragment(), TAG_DOZE).commit();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
