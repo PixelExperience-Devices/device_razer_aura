@@ -23,3 +23,9 @@ persist.vendor.data.qmipriod_load                                               
 
 # Dolby
 persist.vendor.dolby.loglevel                                                        u:object_r:vendor_dolby_loglevel_prop:s0
+
+# Boot animation dynamic colors
+persist.bootanim.color1                                                              u:object_r:bootanim_system_prop:s0
+persist.bootanim.color2                                                              u:object_r:bootanim_system_prop:s0
+persist.bootanim.color3                                                              u:object_r:bootanim_system_prop:s0
+persist.bootanim.color4                                                              u:object_r:bootanim_system_prop:s0
