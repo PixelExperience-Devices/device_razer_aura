@@ -1,1 +1,1 @@
-allow zygote vendor_bluetooth_prop:file read;
+get_prop(zygote, vendor_bluetooth_prop)
