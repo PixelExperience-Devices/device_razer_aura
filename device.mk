@@ -556,3 +556,6 @@ include vendor/razer/aura-extra/wfd.mk
 # HEH filename encryption is being dropped
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Set boot SPL
+BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
