@@ -557,5 +557,8 @@ include vendor/razer/aura-extra/wfd.mk
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml
+
 # Set boot SPL
 BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
