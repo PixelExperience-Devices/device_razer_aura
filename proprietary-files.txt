@@ -1,15 +1,15 @@
 # Proprietary files - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys, unless pinned
 
-# ACDB
-vendor/etc/acdbdata/RC2/Bluetooth_cal.acdb
-vendor/etc/acdbdata/RC2/Codec_cal.acdb
-vendor/etc/acdbdata/RC2/General_cal.acdb
-vendor/etc/acdbdata/RC2/Global_cal.acdb
-vendor/etc/acdbdata/RC2/Handset_cal.acdb
-vendor/etc/acdbdata/RC2/Hdmi_cal.acdb
-vendor/etc/acdbdata/RC2/Headset_cal.acdb
-vendor/etc/acdbdata/RC2/Speaker_cal.acdb
-vendor/etc/acdbdata/RC2/workspaceFile.qwsp
+# ACDB - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys
+vendor/etc/acdbdata/RC2/Bluetooth_cal.acdb|700c98aa7574bf24dc4abee32cff68752f077fb5
+vendor/etc/acdbdata/RC2/Codec_cal.acdb|a483786a6aef9099391e2ae8bf0a03d099d7da39
+vendor/etc/acdbdata/RC2/General_cal.acdb|95574d9a585ac4a06e4b7a6d4b8e6b64549729f2
+vendor/etc/acdbdata/RC2/Global_cal.acdb|0e565638343ccc71409bd372b85aaa475f95aaf0
+vendor/etc/acdbdata/RC2/Handset_cal.acdb|7f2bd999852e3d71ac27efdffd00c450db67b2e2
+vendor/etc/acdbdata/RC2/Hdmi_cal.acdb|effecbaf7c4ca1b7b50d086cd1ffc950f8012ea4
+vendor/etc/acdbdata/RC2/Headset_cal.acdb|9671715a1999acbef0ff5f204892f54a8771c88e
+vendor/etc/acdbdata/RC2/Speaker_cal.acdb|4c756fe23b3e99a3a6c58bf3933af2056225a630
+vendor/etc/acdbdata/RC2/workspaceFile.qwsp|013be391ec69621f7660bae0d91e047949adbfb2
 
 # ADSP
 vendor/bin/adsprpcd
