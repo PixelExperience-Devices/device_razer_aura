@@ -241,8 +241,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
-    libtinyxml.vendor \
-    libvulkan \
     memtrack.sdm845 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
@@ -441,7 +439,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     CarrierConfigOverlay \
     libjson \
-    libjson.vendor \
     librmnetctl
 
 # RemovePackages
