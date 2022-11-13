@@ -2,18 +2,18 @@
   { 
     "repository": "vendor_razer_aura",
     "target_path": "vendor/razer/aura",
-    "branch": "thirteen",
+    "branch": "thirteen-plus",
     "remote": "pixel-devices-blobs"
   },
   { 
     "repository": "vendor_razer_aura-extra",
     "target_path": "vendor/razer/aura-extra",
-    "branch": "thirteen",
+    "branch": "thirteen-plus",
     "remote": "pixel-devices-blobs"
   },
   {
     "repository": "kernel_razer_sdm845",
     "target_path": "kernel/razer/sdm845",
-    "branch": "thirteen"
+    "branch": "thirteen-plus"
   }
 ]
