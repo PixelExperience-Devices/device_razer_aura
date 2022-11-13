@@ -534,7 +534,8 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-include vendor/razer/aura-extra/wfd.mk
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # HEH filename encryption is being dropped
 PRODUCT_PROPERTY_OVERRIDES += \
