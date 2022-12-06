@@ -21,7 +21,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.preference.PreferenceActivity;
 
-public class DozeSettingsActivity extends PreferenceActivity {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.R;
+
+public class DozeSettingsActivity extends CollapsingToolbarBaseActivity {
 
     private static final String TAG_DOZE = "doze";
 
