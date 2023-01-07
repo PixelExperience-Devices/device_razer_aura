@@ -17,4 +17,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
+
+    <!-- The option list for switch screen resolution -->
+    <string-array name="config_screen_resolution_options_strings" translatable="false">
+        <item>-</item>
+    </string-array>
+
+    <!-- The option summary list for screen resolution -->
+    <string-array name="config_screen_resolution_summaries_strings" translatable="false">
+        <item>1440p QHD+</item>
+    </string-array>
 </resources>
