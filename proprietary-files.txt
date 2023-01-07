@@ -888,7 +888,7 @@ vendor/lib/libqcodec2.so|0a268521471874a34ce119f3ffda2732d9990b5f
 vendor/lib64/libqcodec2.so|23360b218470b9b85bbcbc89dc01239cb8c5cddc
 
 # RazerCamera - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys - Hacked
--system/priv-app/RazerCamera/RazerCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|0217667fe7a64d4f4687e734f4191195d63d57a2
+-system/priv-app/RazerCamera/RazerCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2,Aperture|0217667fe7a64d4f4687e734f4191195d63d57a2
 
 # RIL - from LA.QSSI.13.0.r1-05300-qssi.0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9ef9e77f209b7d699d0b37463acfb19faf46d6d4
