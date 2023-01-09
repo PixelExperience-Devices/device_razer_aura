@@ -1,7 +1,1 @@
 get_prop(hal_camera_default, vendor_ro_camera_prop)
-get_prop(hal_camera_default, aac_drc_prop)
-get_prop(hal_camera_default, ab_update_gki_prop)
-
-get_prop(hal_camera_default, vendor_system_prop)
-get_prop(hal_camera_default, sensors_dbg_prop)
-set_prop(hal_camera_default, camera_prop)
