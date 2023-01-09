@@ -1,2 +1,0 @@
-allow system_app proc_pagetypeinfo:file { getattr open read };
-allow system_app proc_vmallocinfo:file { getattr open read };
