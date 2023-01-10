@@ -19,17 +19,21 @@ package org.lineageos.settings.doze;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.preference.PreferenceActivity;
 
-public class DozeSettingsActivity extends PreferenceActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import org.lineageos.settings.R;
+
+public class DozeSettingsActivity extends AppCompatActivity {
 
     private static final String TAG_DOZE = "doze";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         getFragmentManager().beginTransaction().replace(android.R.id.content,
                 new DozeSettingsFragment(), TAG_DOZE).commit();
