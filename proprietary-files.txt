@@ -49,10 +49,6 @@ vendor/firmware/tfa98xx.cnt
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
-# Bluetooth (aptX) - from crosshatch - QP1A.190711.020
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-
 # Bluetooth - from polaris V11.0.5.0.QDGMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|74b5d2e7867e34c0e358cf8d82f3bfea58e97c28
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
