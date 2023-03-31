@@ -942,4 +942,7 @@
     <!-- Default value for whether a SFPS device is required to be interactive for fingerprint auth
     to unlock the device.  -->
     <bool name="config_requireScreenOnToAuthEnabled">true</bool>
+
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
 </resources>
