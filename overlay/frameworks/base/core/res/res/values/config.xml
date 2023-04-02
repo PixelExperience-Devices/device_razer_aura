@@ -942,4 +942,8 @@
     <!-- Default value for whether a SFPS device is required to be interactive for fingerprint auth
     to unlock the device.  -->
     <bool name="config_requireScreenOnToAuthEnabled">true</bool>
+
+    <!-- Flag indicating whether notification and ringtone volumes
+         are controlled together (aliasing is true) or not. -->
+    <bool name="config_alias_ring_notif_stream_types">false</bool>
 </resources>
