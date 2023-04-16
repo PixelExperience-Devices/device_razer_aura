@@ -5,6 +5,7 @@ allow init vendor_ro_camera_prop:file { read relabelto write };
 allow init vendor_qmipriod_prop:file { read relabelto write };
 allow init hwservicemanager:binder { call transfer };
 allow init vendor_file:file { execute };
+allow init sysfs_battery_supply:file { setattr };
 
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
