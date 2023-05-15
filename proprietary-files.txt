@@ -421,16 +421,9 @@ vendor/bin/tloc_daemon
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
-vendor/etc/apdr.conf
 vendor/etc/cacert_location.pem
-vendor/etc/flp.conf
-vendor/etc/gps.conf
 vendor/etc/init/vendor.qti.gnss@2.0-service.rc
-vendor/etc/izat.conf
-vendor/etc/lowi.conf
-vendor/etc/sap.conf
 vendor/etc/xtra_root_cert.pem
-vendor/etc/xtwifi.conf
 vendor/lib64/libalarmservice_jni.so
 vendor/lib64/libdrplugin_client.so
 vendor/lib64/lib_drplugin_server.so
@@ -455,6 +448,11 @@ vendor/lib64/libslimclient.so
 vendor/lib64/libulp2.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_ulp_adaptor.so
+
+# GNSS configs
+vendor/etc/lowi.conf
+vendor/etc/sap.conf
+vendor/etc/xtwifi.conf
 
 # Graphics (Adreno)
 vendor/lib/egl/eglSubDriverAndroid.so

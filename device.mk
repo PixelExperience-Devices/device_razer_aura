@@ -270,7 +270,9 @@ PRODUCT_PACKAGES += \
 
 # GPS configs
 PRODUCT_PACKAGES += \
-    gps.conf
+    flp.conf \
+    gps.conf \
+    izat.conf
 
 # GoogleCamera
 include vendor/razer/aura-extra/gcam.mk
