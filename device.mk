@@ -263,12 +263,14 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0 \
-    android.hardware.gnss@1.0.vendor \
-    android.hardware.gnss@1.1 \
-    android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.0 \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss@1.0-impl-qti \
+    android.hardware.gnss@1.0-service-qti \
+    libgnss \
+    libgnsspps
+
+# GPS configs
+PRODUCT_PACKAGES += \
+    gps.conf
 
 # GoogleCamera
 include vendor/razer/aura-extra/gcam.mk
