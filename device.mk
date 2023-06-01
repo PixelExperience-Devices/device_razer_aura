@@ -275,7 +275,7 @@ PRODUCT_PACKAGES += \
     izat.conf
 
 # GoogleCamera
-include vendor/razer/aura-extra/gcam.mk
+#include vendor/razer/aura-extra/gcam.mk
 
 # Health
 PRODUCT_PACKAGES += \
