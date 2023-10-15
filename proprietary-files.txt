@@ -295,10 +295,10 @@ vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958
 vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
 vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
-# Dolby Atmos™ - from aura-user-9-P-MR3-RC002-RZR-200226-3141-release-keys with @reiryuki modded files
+# Dolby Atmos™ - from aura-user-9-P-MR3-RC002-RZR-200226-3141-release-keys
 system/etc/sysconfig/config-com.dolby.daxappui.xml|b07905e8877de1e694c63b64f003e9a2e3ecdcff
 system/etc/sysconfig/config-com.dolby.daxservice.xml|46ee8cb41ceaaf484132c682a4c8da048987d93f
--system/priv-app/DaxUI/DaxUI.apk|47c6c47b124ec09958fa849149b5c29478032439
+-system/app/DaxUI/DaxUI.apk|89e8ceabb19458b872eed0560a627eb2ff4c4dc4
 -system/priv-app/daxService/daxService.apk|9f77af747f84f40ac44708ccdee2a73447248700
 system/etc/permissions/privapp-com.dolby.daxservice.xml|cf15bea7d20cb58fb5267aed3077681e527cfb7b
 vendor/lib/soundfx/libswdap.so|669c2b3d1e2cd8d251702951ddab458bb2e64731
