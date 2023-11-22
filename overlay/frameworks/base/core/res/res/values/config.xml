@@ -922,10 +922,10 @@
     <!-- Whether the device supports wireless charging or not -->
     <bool name="config_deviceSupportsWirelessCharging">true</bool>
 
-     <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
-     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
          from the HAL in the future. -->
     <array name="config_sfps_sensor_props" translatable="false">
@@ -943,7 +943,9 @@
     to unlock the device.  -->
     <bool name="config_requireScreenOnToAuthEnabled">true</bool>
 
-    <!-- Flag indicating whether notification and ringtone volumes
-         are controlled together (aliasing is true) or not. -->
-    <bool name="config_alias_ring_notif_stream_types">false</bool>
+    <!-- Define device configs on boot -->
+    <string-array name="device_configs_override">
+        <!-- Show notification volume control slider separate from ring -->
+        <item>systemui/volume_separate_notification=true</item>
+    </string-array>
 </resources>
