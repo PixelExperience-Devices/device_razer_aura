@@ -19,28 +19,20 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class ChromaActivity extends Activity {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.R;
+
+public class ChromaActivity extends CollapsingToolbarBaseActivity {
 
     @Override
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-
-        Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
+        Fragment fragment = getFragmentManager().findFragmentById(R.id.content_frame);
         ChromaFragment chromaFragment;
         if (fragment == null) {
             chromaFragment = new ChromaFragment();
-            getFragmentManager().beginTransaction().add(android.R.id.content, chromaFragment).commit();
+            getFragmentManager().beginTransaction().add(R.id.content_frame, chromaFragment).commit();
         }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
     }
 }

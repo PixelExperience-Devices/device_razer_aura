@@ -19,28 +19,20 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class BMSActivity extends Activity {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.R;
+
+public class BMSActivity extends CollapsingToolbarBaseActivity {
 
     @Override
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-
-        Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
+        Fragment fragment = getFragmentManager().findFragmentById(R.id.content_frame);
         BMSFragment bmsFragment;
         if (fragment == null) {
             bmsFragment = new BMSFragment();
-            getFragmentManager().beginTransaction().add(android.R.id.content, bmsFragment).commit();
+            getFragmentManager().beginTransaction().add(R.id.content_frame, bmsFragment).commit();
         }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
     }
 }

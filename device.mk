@@ -214,7 +214,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    AuraParts \
+    DeviceDoze \
     RazerParts 
 
 # Dex Lib

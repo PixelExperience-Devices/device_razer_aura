@@ -19,13 +19,14 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class NoticeActivity extends Activity {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+
+public class NoticeActivity extends CollapsingToolbarBaseActivity {
     Boolean unlock = false;
     @Override
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_notice);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         new Thread(() -> {
             try {

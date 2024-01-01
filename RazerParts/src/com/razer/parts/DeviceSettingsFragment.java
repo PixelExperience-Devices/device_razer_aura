@@ -86,8 +86,8 @@ public class DeviceSettingsFragment extends PreferenceFragment implements Prefer
                 break;
             case ACTIVE_WAKE:
                 preference.getContext().startActivity(new Intent()
-                        .setClassName("org.lineageos.settings",
-                                "org.lineageos.settings.doze.DozeSettingsActivity"));
+                        .setClassName("com.advanced.settings.doze",
+                                "com.advanced.settings.doze.DozeSettingsActivity"));
                 break;
         }
         return true;

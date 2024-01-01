@@ -27,7 +27,7 @@
         android:directBootAware="true"
         android:label="@string/app_name"
         android:icon="@drawable/cellphone_cog"
-        android:theme="@style/DeviceSettingsTheme">
+        android:theme="@style/Theme.SubSettingsBase">
 
         <activity
                 android:name=".DeviceSettingsActivity"
