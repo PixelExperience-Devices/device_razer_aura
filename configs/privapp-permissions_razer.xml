@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (c) 2021, Alcatraz323 <alcatraz32323@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  -->
+
+<permissions>
+    <privapp-permissions package="com.razer.camera">
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.CAMERA"/>
+        <permission name="android.permission.NFC"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.WRITE_SETTINGS"/>
+        <permission name="android.permission.MANAGE_DOCUMENTS"/>
+        <permission name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+        <permission name="android.permission.VIBRATE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+        <permission name="android.permission.ROTATE_SURFACE_FLINGER" />
+        <permission name="android.permission.ACCESS_SURFACE_FLINGER" />
+        <permission name="android.permission.CAMERA_OPEN_CLOSE_LISTENER" />
+        <permission name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+        <permission name="android.permission.SYSTEM_CAMERA" />
+    </privapp-permissions>
+</permissions>

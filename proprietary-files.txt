@@ -871,6 +871,9 @@ vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0
 vendor/lib/libqcodec2.so|0a268521471874a34ce119f3ffda2732d9990b5f
 vendor/lib64/libqcodec2.so|23360b218470b9b85bbcbc89dc01239cb8c5cddc
 
+# RazerCamera - from aura-user-9-P-SMR7-RC003-RZR-210107-3225-release-keys
+-system/priv-app/RazerCamera/RazerCamera.apk
+
 # RIL - from LA.QSSI.12.0.r1-05100-qssi.0
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|c8a2ce9a86e542daf835dc0bfa1a63ed7e412d84
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
