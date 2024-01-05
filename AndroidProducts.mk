@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_aura.mk
+    $(LOCAL_DIR)/aosp_aura.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_aura-user \
-    lineage_aura-userdebug \
-    lineage_aura-eng
+    aosp_aura-user \
+    aosp_aura-userdebug \
+    aosp_aura-eng
